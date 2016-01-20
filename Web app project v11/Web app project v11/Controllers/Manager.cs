@@ -30,5 +30,19 @@ namespace Web_app_project_v11.Controllers
         // ProductAdd()
         // ProductEdit()
         // ProductDelete()
+
+        public IEnumerable<CustomerBase> CustomerGetAll()
+        {
+            var customers = ds.Customers;
+            return Mapper.Map<IEnumerable<CustomerBase>>(customers);
+        }
+
+        public CustomerBase CustomerGetById(int id)
+        {
+            var customer = ds.Customers.Find(id);
+
+            return (customer == null) ? null : Mapper.Map<CustomerBase>(customer);
+        }
+
     }
 }

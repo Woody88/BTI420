@@ -13,6 +13,8 @@ namespace Web_app_project_v11
         {
             // Add map creation statements here
             // Mapper.CreateMap< FROM , TO >();
+
+            Mapper.CreateMap<Models.Customer, Controllers.CustomerBase>();
         }
     }
 }
