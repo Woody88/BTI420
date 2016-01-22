@@ -44,6 +44,7 @@ namespace Web_app_project_v11.Controllers
             return (customer == null) ? null : Mapper.Map<CustomerBase>(customer);
         }
 
+<<<<<<< HEAD
         public CustomerBase CustomerAdd(CustomerAdd newCustomer)
         {
             var addedCustomer = ds.Customers.Add(Mapper.Map<Customer>(newCustomer));
@@ -52,5 +53,7 @@ namespace Web_app_project_v11.Controllers
             return (addedCustomer == null) ? null : Mapper.Map<CustomerBase>(addedCustomer);
         }
 
+=======
+>>>>>>> 784cf35933bec011f9dfc3ff0388ea983da893b5
     }
 }

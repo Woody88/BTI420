@@ -37,6 +37,7 @@ namespace Web_app_project_v11.Controllers
 
         // POST: Customers/Create
         [HttpPost]
+<<<<<<< HEAD
         public ActionResult Create(CustomerAdd newCustomer)
         {
             if (!ModelState.IsValid)
@@ -53,6 +54,19 @@ namespace Web_app_project_v11.Controllers
             else
             {
                 return RedirectToAction("details", new { id = addedCustomer.CustomerId });
+=======
+        public ActionResult Create(FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+>>>>>>> 784cf35933bec011f9dfc3ff0388ea983da893b5
             }
         }
 

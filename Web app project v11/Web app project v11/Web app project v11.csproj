@@ -127,7 +127,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\CustomerAdd.cs" />
+=======
+>>>>>>> 784cf35933bec011f9dfc3ff0388ea983da893b5
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\Customer_vm.cs" />
     <Compile Include="Controllers\HomeController.cs" />

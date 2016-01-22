@@ -32,6 +32,7 @@ C:\Users\wdelhia\Documents\Assignment2\Web app project v11\Web app project v11\b
 C:\Users\wdelhia\Documents\Assignment2\Web app project v11\Web app project v11\obj\Debug\Web app project v11.csprojResolveAssemblyReference.cache
 C:\Users\wdelhia\Documents\Assignment2\Web app project v11\Web app project v11\obj\Debug\Web app project v11.dll
 C:\Users\wdelhia\Documents\Assignment2\Web app project v11\Web app project v11\obj\Debug\Web app project v11.pdb
+<<<<<<< HEAD
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\bin\App_Data\Chinook.mdf
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\bin\App_Data\Chinook_log.ldf
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\bin\Web app project v11.dll.config
@@ -66,3 +67,5 @@ C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web a
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\obj\Debug\Web app project v11.csprojResolveAssemblyReference.cache
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\obj\Debug\Web app project v11.dll
 C:\Users\wdelhia\Downloads\BTI420-master\BTI420-master\Web app project v11\Web app project v11\obj\Debug\Web app project v11.pdb
+=======
+>>>>>>> 784cf35933bec011f9dfc3ff0388ea983da893b5
